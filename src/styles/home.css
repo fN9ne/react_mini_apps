@@ -1,0 +1,23 @@
+.home__title {
+	font-size: 32px;
+	font-weight: 800;
+	margin: 0 0 2rem 0;
+}
+.home__pages {
+	display: flex;
+	flex-wrap: wrap;
+	gap: 10px;
+}
+.home__page {
+	padding: 15px 20px;
+	border: 1px solid #212121;
+	color: #212121;
+	font-weight: 500;
+	transition: 350ms;
+}
+@media (hover: hover) {
+	.home__page:hover {
+		background-color: #212121;
+		color: #f0f0f0;
+	}
+}

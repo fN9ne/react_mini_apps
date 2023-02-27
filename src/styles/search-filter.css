@@ -1,0 +1,44 @@
+.search-filter {}
+.search-filter__container {}
+.search-filter__content {}
+.search-filter__icon {
+	position: absolute;
+	width: 40px;
+	aspect-ratio: 1 / 1;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	pointer-events: none;
+}
+.search-filter__icon svg {
+	width: 20px;
+	transform: translate(0, 1px);
+	aspect-ratio: 1 / 1;
+	fill: #212121;
+}
+.search-filter__field {
+	margin: 0 0 1rem 0;
+}
+.search-filter__input {
+	height: 40px;
+	width: 300px;
+	background: #eaeaea;
+	padding: 0 0 0 37px;
+	border-radius: 15px;
+	font-weight: 500;
+}
+.search-filter__input:focus::placeholder {
+	opacity: 0;
+}
+.search-filter__list {
+	display: flex;
+	flex-wrap: wrap;
+	gap: 2px;
+}
+.search-filter__item {
+	background: #82c0d2;
+	color: #212121;
+	font-weight: 500;
+	padding: 10px 12px;
+	border-radius: 8px;
+}

@@ -1,0 +1,119 @@
+.calculator-block {
+	width: 300px;
+}
+.calculator__display {
+	height: 60px;
+	background-color: #262626;
+	text-align: right;
+	line-height: 60px;
+	padding: 0 20px;
+	color: #eee;
+	font-size: 20px;
+	font-weight: 500;
+	width: 100%;
+}
+.calculator__body {
+	display: flex;
+	flex-wrap: wrap;
+}
+.calculator__button {
+	flex: 0 0 25%;
+	height: 40px;
+	line-height: 40px;
+	border: 1px solid #262626;
+	border-top-width: 0;
+	border-right-width: 0;
+	font-weight: 700;
+	transition: 350ms;
+}
+.calculator__button:hover,
+.calculator__button.active {
+	background-color: #cbcbcb;
+}
+.calculator__button-1 {
+	order: 9;
+}
+.calculator__button-2 {
+	order: 10;
+}
+.calculator__button-3 {
+	order: 11;
+}
+.calculator__button-4 {
+	order: 5;
+}
+.calculator__button-5 {
+	order: 6;
+}
+.calculator__button-6 {
+	order: 7;
+}
+.calculator__button-7 {
+	order: 1;
+}
+.calculator__button-8 {
+	order: 2;
+}
+.calculator__button-9 {
+	order: 3;
+}
+.calculator__button-0 {
+	order: 14;
+}
+.calculator__button-dot {
+	order: 13;
+}
+.calculator__button-result {
+	order: 15;
+	background-color: #f27b7b;
+}
+.calculator__button-result:hover .calculator__button-result.active {
+	background-color: #ed6f6f;
+}
+.calculator__button-divide,
+.calculator__button-multiply,
+.calculator__button-plus,
+.calculator__button-minus {
+	border-right-width: 1px;
+	background-color: #5ab5e6;
+}
+.calculator__button-divide:hover,
+.calculator__button-multiply:hover,
+.calculator__button-plus:hover,
+.calculator__button-minus:hover,
+.calculator__button-divide.active,
+.calculator__button-multiply.active,
+.calculator__button-plus.active,
+.calculator__button-minus.active {
+	background-color: #4698c5;
+}
+.calculator__button-divide {
+	order: 4;
+}
+.calculator__button-multiply {
+	order: 8;
+}
+.calculator__button-plus {
+	order: 12;
+}
+.calculator__button-minus {
+	order: 16;
+}
+.calculator__button-clear {
+	order: 18;
+	border-right-width: 1px;
+}
+.calculator__button-erase {
+	order: 17;
+}
+.calculator__button-clear,
+.calculator__button-erase {
+	flex: 0 0 50%;
+	background-color: #c6c6c6;
+}
+.calculator__button-clear:hover,
+.calculator__button-erase:hover,
+.calculator__button-clear.active,
+.calculator__button-erase.active {
+	background-color: #b5b5b5;
+}
